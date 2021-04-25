@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>STEMxINISM - Submission Form</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link href="../static/style.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+
+  <body>
+    <div class="rectangle">
+      <h1>SUBMISSION FORM</h1>
+      <form id="add-form" method="POST" action="/add-article">
+      <div class="form-row " style="margin-left: 25%">
+        <div class="form-group">
+          <input type="text" name= "first_name" class="form-control" placeholder="First Name" required>
+        </div>
+
+        <div class="form-group" style="margin-left: 25%">
+          <input type="text" name= "last_name" class="form-control" placeholder="Last Name" required>
+        </div>
+      </div>
+
+      <div class="form-group col-md-1" style="margin-left: 25%">
+          <input type="text" name="occupation" placeholder="Occupation (Ex. Computer Science Major, Senior Software Developer, Research Scientist)">
+      </div>
+
+      <div class=" col-md-1" style="margin-left: 25%">
+          <input type="text" name="linkedin" placeholder="LinkedIn Link (Ex. https://www.linkedin.com/in/user-name)">
+      </div>
+
+      <div class="col-md-1" style="margin-left: 25%">
+          <input type="text" name="personalwebsite" placeholder="Personal Website (Ex. user-name.tech)">
+      </div>
+      
+      <!-- Category -->
+      <div class="form-group col-md-2" style="margin-left: 25%">
+        <select id="view-form" class="form-control" name="category">
+          <option selected>Category</option>
+          <option value="career">Career</option>
+          <option value="education">Education</option>
+          <option value="research">Research</option>
+          <option value="breaking">Breaking the Glass Ceiling</option>
+        </select>
+      </div>
+
+      <div class="form-group col-md-1" style="margin-left: 25%">
+          <input type="text" name="title" placeholder="Title of Article" required>
+      </div>
+
+      <div class="form-group col-md-1" style="margin-left: 25%">
+          <input type="text" name="article" placeholder="Write Article Here..." required>
+      </div>
+
+      <div class="form-group col-md-1" style="margin-left: 25%">
+          <input type="text" name="statement" placeholder="Personal Statement... Tell us about Yourself." required>
+      </div>
+      
+      <input style="margin-left: 25%" class="btn btn-success col-md-1" type="Submit"/>      
+    </form>
+    </div>
+
+    <button class="btn" type="button" style="margin-left: 25%"> STEMxINISM</button> 
+    <div class="sidenav">
+    <!-- Create class nav-list to hold elements of navigation bar -->
+    <ul class="nav-list">
+      <!-- For each element in navigation bar, create a nav-item class that contains a nav-link class-->
+      <ul class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a class="nav-link" href="/">Home</a>
+      </ul>
+
+      <ul class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a class="nav-link" href="/about" >About</a>
+      </ul>
+
+      <ul class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a class="nav-link" href="/articles/all">Articles</a>
+      </ul>
+
+      <ul class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a class="nav-link" href="/issues">Issues</a>
+      </ul>
+
+      <ul class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a id="current" class="nav-link">Contribute</a>
+      </ul>
+
+      <ul class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a class="nav-link" href="/connect">Connect</a>
+      </ul>
+
+    </ul>
+    
+  </div>
+    <!-- Submission Form Code -->
+    
+    
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

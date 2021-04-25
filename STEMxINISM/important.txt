@@ -1,0 +1,9 @@
+This page is for Important Notes for Code
+
+Features that Need JavaScript in Program
+- Carousel for all slide behaviors
+- Dropdowns for displaying and positioning (also requires Popper.js)?
+- Navbar for extending our Collapse plugin to implement responsive  
+  behavior
+
+<form id="add-form" method="POST" action="/add-email">

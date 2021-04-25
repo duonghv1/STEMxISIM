@@ -1,0 +1,37 @@
+<div class="sidenav">
+    <!-- Create class nav-list to hold elements of navigation bar -->
+    <ul class="nav-list">
+      <!-- For each element in navigation bar, create a nav-item class that contains a nav-link class-->
+      <ul class="nav-item">
+        <!-- Each nav-ulnk class will contain an href to its respective html section-->
+        <a id="current" class = "nav-link" > Home</a>
+      </ul>
+
+      <ul class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a class="nav-link" href="templates/about.html">About</a>
+      </ul>
+
+      <ul class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a class="nav-link" href="templates/articles.html">Articles</a>
+      </ul>
+
+      <ul class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a class="nav-link" href="templates/issues.html">Issues</a>
+      </ul>
+
+      <ul class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a class="nav-link" href="templates/contribute.html">Contribute</a>
+      </ul>
+
+      <li class="nav-item">
+        <!-- Each nav-link class will contain an href to its respective html section-->
+        <a class="nav-link" href="templates/connect.html">Connect</a>
+      </li>
+
+    </ul>
+    
+  </div> 
